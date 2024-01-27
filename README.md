@@ -12,3 +12,4 @@ Metacello new
     repository: 'github://feenkcom/gt4vmmaker/src';
     load.
 ```
+## Installation```stMetacello new	repository: 'github://feenkcom/gt4vmmaker:master/src';	baseline: 'GToolkit4VMMaker';	load```
