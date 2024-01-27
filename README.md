@@ -2,14 +2,11 @@
 
 GToolkit VM Maker tools
 
-## How to load
+## Installation
 
-You can load the whole code in Pharo 6.1 using the following snippet:
-
-```Smalltalk
+```st
 Metacello new
-    baseline: 'GToolkit4VMMaker';
-    repository: 'github://feenkcom/gt4vmmaker/src';
-    load.
+	repository: 'github://feenkcom/gt4vmmaker:master/src';
+	baseline: 'GToolkit4VMMaker';
+	load
 ```
-## Installation```stMetacello new	repository: 'github://feenkcom/gt4vmmaker:master/src';	baseline: 'GToolkit4VMMaker';	load```
